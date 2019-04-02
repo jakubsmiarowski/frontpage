@@ -322,6 +322,7 @@ header ul li a:hover {
     background-color: #FFC312;
     position: absolute;
     left: 50%;
+    top: 3850px;
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -444,6 +445,12 @@ header ul li a:hover {
 
 /*-------------contact us-----------*/
 
+.contact_us {
+    background-image: url(img/about_us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact_us h1 {
     text-align: center;
     padding-top: 100px;
@@ -452,6 +459,7 @@ header ul li a:hover {
     text-transform: uppercase;
     font-family: 'Montserrat';
     letter-spacing: 1em;
+    color: white;
 }
 
 .contact_us p {
@@ -466,12 +474,12 @@ header ul li a:hover {
     display: block;
 }
 
-.contact_us .input {
+.smallform {
     height: 80px;
     margin-bottom: 30px;
 }
 
-.contact_us .message {
+.bigform {
     height: 300px;
 }
 
