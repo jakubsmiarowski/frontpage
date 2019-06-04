@@ -85,7 +85,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 
@@ -133,10 +133,10 @@ header ul li a:hover {
 }
 
 .hero {
-    background: rgba(0, 0, 0, .7);
     padding: 300px 0 150px 0;
     position: relative;
     background-image: url(img/hero2.jpg);
+    background: rgba(0, 0, 0, .7);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -518,16 +518,11 @@ header ul li a:hover {
     display: block;
 }
 
-.form {
-    width: 900px;
-}
-
 .smallform {
     max-width: 50%;
-    padding: 0 15px;
-    height: 80px;
-    margin-bottom: 30px;
+    padding: 0 45px;
     float: left;
+    margin-bottom: 20px;
 }
 
 .form_group {
@@ -541,20 +536,18 @@ header ul li a:hover {
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 2;
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 textarea.form_control {
-    height: auto;
-    float: right;
+    height: 130px;
     display: block;
-    width: 25%;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -570,12 +563,13 @@ textarea.form_control {
 }
 
 .bigform {
-    height: 300px;
-    max-width: 50%;
+    padding: 0 45px;
     float: right;
+    margin-bottom: 20px;
 }
 
 .message {
+    display: block;
     height: 60px;
     width: 200px;
     border: none;
@@ -583,13 +577,9 @@ textarea.form_control {
     background-color: #FFC312;
     font-size: 20px;
     color: white;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
     cursor: pointer;
     transition: 600ms;
-    text-align: center;
-    align-self: center;
+    margin: 30px auto;
 }
 
 .message:hover {
