@@ -85,6 +85,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1400px;
 }
 
 
@@ -135,7 +136,7 @@ header ul li a:hover {
     background: rgba(0, 0, 0, .7);
     padding: 300px 0 150px 0;
     position: relative;
-    background-image: url(img/hero1.jpg);
+    background-image: url(img/hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -354,6 +355,11 @@ header ul li a:hover {
     width: 33.33%;
     display: block;
     margin: 50px auto;
+    transition: 500ms;
+}
+
+.stage_story:hover {
+    background-color: #0984e3;
 }
 
 .stage_story p {
@@ -609,6 +615,8 @@ footer p {
 footer ul {
     text-decoration: none;
     text-align: center;
+    margin-left: 50px;
+    align-self: center;
 }
 
 footer ul li {
