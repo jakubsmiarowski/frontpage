@@ -123,6 +123,9 @@
     .team h1,
     .contact_us h1 {
         font-size: 25px;
+        text-align: center;
+        letter-spacing: 0.5em;
+        margin: 0 auto;
     }
     .blank {
         widows: 0;
@@ -169,8 +172,7 @@
         float: none;
     }
     footer p {
-        margin-left: 50px;
-        font-size: 10px;
+        display: none;
     }
     footer ul li a i {
         font-size: 20px;

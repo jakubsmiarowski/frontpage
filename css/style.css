@@ -135,7 +135,7 @@ header ul li a:hover {
 .hero {
     padding: 300px 0 150px 0;
     position: relative;
-    background-image: url(img/hero2.jpg);
+    background-image: url(images/hero.png);
     background: rgba(0, 0, 0, .7);
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,6 +192,7 @@ header ul li a:hover {
 .services h1 {
     text-align: center;
     margin-top: 100px;
+    padding-top: 100px;
     font-size: 40px;
     font-weight: 1500;
     text-transform: uppercase;
