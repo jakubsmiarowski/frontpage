@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 789px) {
+@media (max-width: 789px) and (min-width: 481px) {
     .col-3 {
         width: 50%;
     }
@@ -86,6 +86,87 @@
     .smallform,
     .bigform {
         padding: 0 20px;
+    }
+    footer p {
+        margin-left: 50px;
+        font-size: 10px;
+    }
+    footer ul li a i {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .logo {
+        margin: 0;
+        font-size: 15px;
+    }
+    header ul {
+        margin: 0;
+    }
+    header ul li a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .col-3 {
+        width: 75%;
+    }
+    .col-6 {
+        width: 100%
+    }
+    .text_header h1 {
+        display: none;
+    }
+    .services h1,
+    .portfolio h1,
+    .about_us h1,
+    .team h1,
+    .contact_us h1 {
+        font-size: 25px;
+    }
+    .blank {
+        widows: 0;
+    }
+    .about_us_img,
+    .about_us_img:before {
+        display: none;
+    }
+    .about_us_text_left,
+    .about_us_text_right {
+        display: block;
+        position: static;
+        margin: 50px auto;
+        width: 50%;
+    }
+    .about_us_text_left h2,
+    .about_us_text_right h2,
+    .about_us_text_left p,
+    .about_us_text_right p {
+        text-align: center;
+    }
+    .stage_story {
+        width: 200px;
+    }
+    .bottom {
+        max-width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    .person img {
+        width: 200px;
+        height: 200px;
+    }
+    .patrons {
+        display: none;
+    }
+    .contact_us {
+        height: 700px;
+    }
+    .smallform,
+    .bigform {
+        padding: 0 20px;
+        max-width: 100%;
+        float: none;
     }
     footer p {
         margin-left: 50px;
