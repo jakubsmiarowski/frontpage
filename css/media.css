@@ -117,6 +117,9 @@
     .text_header h1 {
         display: none;
     }
+    .service {
+        margin: 50px auto;
+    }
     .services h1,
     .portfolio h1,
     .about_us h1,
